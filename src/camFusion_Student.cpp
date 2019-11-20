@@ -151,8 +151,53 @@ void computeTTCLidar(std::vector<LidarPoint> &lidarPointsPrev,
     // ...
 }
 
-
-void matchBoundingBoxes(std::vector<cv::DMatch> &matches, std::map<int, int> &bbBestMatches, DataFrame &prevFrame, DataFrame &currFrame)
+// associate bounding boxes between current and previous frame using keypoint matches
+void matchBoundingBoxes(std::vector<cv::DMatch> &matches, 
+                        std::map<int, int> &bbBestMatches, 
+                        DataFrame &prevFrame, 
+                        DataFrame &currFrame)
 {
-    // ...
+    // key of outer map is prevFrame boxID, key of inner map is currFrame boxID
+    // value of inner map is the count number of keypoint correspondences
+    map<int, map<int, int>> mymap;
+
+    for (auto it = matches.begin(); it != matches.end(); ++it)
+    {
+        cv::KeyPoint prevPoint = prevFrame.keypoints[it->queryIdx];
+        cv::KeyPoint currPoint = currFrame.keypoints[it->trainIdx];
+        int prevIdx;
+        int currIdx;
+        for (auto it_pre_bb = prevFrame.boundingBoxes.begin(); it_pre_bb != prevFrame.boundingBoxes.end(); ++it_pre_bb)
+        {
+            if (it_pre_bb->roi.contains(prevPoint.pt))
+            {
+                prevIdx = it_pre_bb->boxID;
+                break;
+            }
+        }
+        for (auto it_curr_bb = currFrame.boundingBoxes.begin(); it_curr_bb != currFrame.boundingBoxes.end(); ++it_curr_bb)
+        {
+            if (it_curr_bb->roi.contains(currPoint.pt))
+            {
+                currIdx = it_curr_bb->boxID;
+                break;
+            }
+        }
+        // count the number of associate bounding boxes
+        mymap[prevIdx][currIdx]++;
+    }
+    
+    for (auto it_prev = mymap.begin(); it_prev != mymap.end(); ++it_prev)
+    {
+        int highest_curr_idx = 0;
+        for (auto it_curr = it_prev->second.begin(); it_curr != it_prev->second.end(); ++it_curr)
+        {
+            // find the highest number of keypoint correspondences
+            if (highest_curr_idx < it_curr->second)
+            {
+                highest_curr_idx = it_curr->second;
+                bbBestMatches[it_prev->first] = it_curr->first;
+            }
+        }
+    }
 }

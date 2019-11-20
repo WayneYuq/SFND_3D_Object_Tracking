@@ -1,4 +1,3 @@
-
 /* INCLUDES FOR THIS PROJECT */
 #include <iostream>
 #include <fstream>
@@ -93,6 +92,12 @@ int main(int argc, const char *argv[])
         frame.cameraImg = img;
         dataBuffer.push_back(frame);
 
+        // ring buffer of size dataBufferSize
+        if (dataBuffer.size() > dataBufferSize)
+        {
+            dataBuffer.erase(dataBuffer.begin());
+        }
+        
         cout << "#1 : LOAD IMAGE INTO BUFFER done" << endl;
 
 
@@ -140,7 +145,7 @@ int main(int argc, const char *argv[])
         
         
         // REMOVE THIS LINE BEFORE PROCEEDING WITH THE FINAL PROJECT
-        continue; // skips directly to the next image without processing what comes beneath
+        // continue; // skips directly to the next image without processing what comes beneath
 
         /* DETECT IMAGE KEYPOINTS */
 
@@ -150,7 +155,7 @@ int main(int argc, const char *argv[])
 
         // extract 2D keypoints from current image
         vector<cv::KeyPoint> keypoints; // create empty feature list for current image
-        string detectorType = "SHITOMASI";
+        string detectorType = "SHITOMASI"; // SHITOMASI, HARRIS, FAST, BRISK, ORB, AKAZE, SIFT
 
         if (detectorType.compare("SHITOMASI") == 0)
         {
@@ -223,6 +228,7 @@ int main(int argc, const char *argv[])
             //// STUDENT ASSIGNMENT
             //// TASK FP.1 -> match list of 3D objects (vector<BoundingBox>) between current and previous frame (implement ->matchBoundingBoxes)
             map<int, int> bbBestMatches;
+            cout << "matches matches size(): " << matches.size() << endl;
             matchBoundingBoxes(matches, bbBestMatches, *(dataBuffer.end()-2), *(dataBuffer.end()-1)); // associate bounding boxes between current and previous frame using keypoint matches
             //// EOF STUDENT ASSIGNMENT
 
