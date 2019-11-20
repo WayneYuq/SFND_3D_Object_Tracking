@@ -200,4 +200,11 @@ void matchBoundingBoxes(std::vector<cv::DMatch> &matches,
             }
         }
     }
+
+    cout << "associate bounding boxes prev boxID-curr boxID: ";
+    for (auto it = bbBestMatches.begin(); it != bbBestMatches.end(); ++it)
+    {
+        cout << it->first << "-" << it->second << ", ";
+    }
+    cout << endl;
 }
