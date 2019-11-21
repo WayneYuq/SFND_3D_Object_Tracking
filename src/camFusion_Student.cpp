@@ -144,11 +144,44 @@ void computeTTCCamera(std::vector<cv::KeyPoint> &kptsPrev, std::vector<cv::KeyPo
     // ...
 }
 
+// caculate the nearest point number based on a given radius
+bool isNotOurlier(const LidarPoint &lidarPoint, const std::vector<LidarPoint> &lidarPoints, 
+                     const double radiusSearch, const int minNeighborsInRadius)
+{
+    int count = 0;
+    for (auto it = lidarPoints.begin(); it != lidarPoints.end(); ++it)
+    {
+        // the distance between two lidar points
+        double dis = sqrt(pow(lidarPoint.x - it->x, 2)+pow(lidarPoint.y - it->y, 2)+pow(lidarPoint.z - it->z, 2));
+        if (dis <= radiusSearch) count++;
+    }
+    if (count <= minNeighborsInRadius) return false;
+    return true;
+}
 
 void computeTTCLidar(std::vector<LidarPoint> &lidarPointsPrev,
                      std::vector<LidarPoint> &lidarPointsCurr, double frameRate, double &TTC)
 {
-    // ...
+    double laneWidth = 4.0; // assumed width of the ego lane
+    double radiusSearch = 0.1;
+    int minNeighborsInRadius = 3;
+
+    // find closest distance to Lidar points within ego lane
+    double minXPrev = 1e9, minXCurr = 1e9;
+    for (auto it = lidarPointsPrev.begin(); it != lidarPointsPrev.end(); ++it)
+    {
+        if ((abs(it->y) <= laneWidth / 2.0) && isNotOurlier(*it, lidarPointsPrev, radiusSearch, minNeighborsInRadius)) // 3D point within ego lane?
+            minXPrev = minXPrev > it->x ? it->x : minXPrev;
+    }
+
+    for (auto it = lidarPointsCurr.begin(); it != lidarPointsCurr.end(); ++it)
+    {
+        if ((abs(it->y) <= laneWidth / 2.0) && isNotOurlier(*it, lidarPointsCurr, radiusSearch, minNeighborsInRadius))
+            minXCurr = minXCurr > it->x ? it->x : minXCurr;
+    }
+
+    // compute TTC from both measurements
+    TTC = minXCurr * (1/frameRate) / (minXPrev - minXCurr);
 }
 
 // associate bounding boxes between current and previous frame using keypoint matches
