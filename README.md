@@ -33,3 +33,35 @@ In this final project, you will implement the missing parts in the schematic. To
 2. Make a build directory in the top level project directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./3D_object_tracking`.
+
+## FP.1 Match 3D Objects
+
+1. Create a embedding `std::map` structure `map<int, map<int, int>> mymap`. Key of outer map is previous frame boxID, key of inner map is current frame boxID and the value of inner map is the count number of keypoint correspondences.
+2. Run two loops for the `matches`, first is counting every boxIDs combination of successive frames. Second is filtering the highest number of keypoint correspondences.
+
+## FP.2 Compute Lidar-based TTC
+
+1. With the given lidar points of matched bounding boxes, loop for corresponding to find the nearest point of previous and current box.
+2. Using function `isNotOurlier` to check whether the point is a outlier, my solution  is counting all the number of points that the euclidean distance is less than the given radius `radiusSearch`, if the count is less than a threshold `minNeighborsInRadius`, then the point is handle with a outlier.
+3. Then just use the formula `minXCurr * (1/frameRate) / (minXPrev - minXCurr)` to calculate the TTC.
+
+## FP.3 Associate Keypoint Correspondences with Bounding Boxes
+
+1. Filled the `clusterKptMatchesWithROI` function in `camFusion_Student.cpp`.
+2. Loop for `kptMatches` in the current frame, and add all the matches in the region of interest to `boundingBox.kptMatches`.
+3. Next loop the `boundingBox.kptMatches` for removing outliers by compare the distance to the mean multiply by a threshold.
+
+## FP.4 Compute Camera-based TTC
+
+1. First take a loop of handled `boundingBox.kptMatches` in the previous step, and another same embedding loop, to get a distance ratio of current and previous distance of two points, if current distance larger than threshold `minDist`, push it to a vector.
+2. To deal with outlier correspondences, sort the vector and find out the median value of the ratios.
+3. Finally get TTC by the formula `-dT / (1 - medDistRatio)`.
+
+## FP.5 Performance Evaluation 1
+
+1. By checking all the successive frame, there are several has unreasonable lidar-based TTC, one has sudden drop with only 7.2s(11s - 13s is reasonable), and another sudden rise to 34.34s.
+2. My argumentation is if the eago car slow down with a linear acceleration, then the lidar TTC will keep in a stable interval. But in actual situation we slow down by intermittent brake, so if two successive frame with only very small movement, the TTC will sudden rise to a large seconds value, and in contrast the TTC will sudden drop to a fewer seconds.
+
+## FP.6 Performance Evaluation 2
+
+
