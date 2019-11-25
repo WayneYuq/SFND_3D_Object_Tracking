@@ -1,0 +1,1558 @@
+#########################- FAST, BRIEF -#########################
+#########################- FAST, BRISK -#########################
+#########################- FAST, ORB -#########################
+#########################- FAST, FREAK -#########################
+#########################- Shi-Tomasi, -BRIEF #########################
+#########################- Shi-Tomasi, -ORB #########################
+#########################- Shi-Tomasi, -BRISK #########################
+#########################- Shi-Tomasi, -FREAK #########################
+#########################- BRISK, BRISK -#########################
+#########################- ORB, ORB -#########################
+#########################- AKAZE, AKAZE -#########################
+#########################- SIFT, SIFT -#########################
+#########################- Harris, BRISK -#########################
+#########################- Harris, BRIEF -#########################
+#########################- Harris, ORB -#########################
+#########################- Harris, FREAK -#########################
+
+detectorType: SHITOMASI, HARRIS, FAST, BRISK, ORB, AKAZE, SIFT
+descriptorType: BRISK, BRIEF, ORB, FREAK, AKAZE, SIFT
+
+
+
+######################### FAST, BRIEF #########################
+
+FAST with n= 1864 keypoints in 1.45104 ms
+BRIEF descriptor extraction in 11.5127 ms
+FAST with n= 1898 keypoints in 1.30618 ms
+BRIEF descriptor extraction in 8.70406 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1729 matches in 26.9383 ms
+matches matches size(): 1729
+TTC Lidar : 12.972159 s, TTC Camera : 10.964514 s
+FAST with n= 1865 keypoints in 0.923426 ms
+BRIEF descriptor extraction in 7.38831 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1771 matches in 26.9129 ms
+matches matches size(): 1771
+TTC Lidar : 12.264038 s, TTC Camera : 11.006350 s
+FAST with n= 1840 keypoints in 1.02575 ms
+BRIEF descriptor extraction in 9.30249 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1745 matches in 25.1523 ms
+matches matches size(): 1745
+TTC Lidar : 16.963042 s, TTC Camera : 14.155900 s
+FAST with n= 1867 keypoints in 1.18561 ms
+BRIEF descriptor extraction in 9.83777 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1725 matches in 29.8396 ms
+matches matches size(): 1725
+TTC Lidar : 13.125420 s, TTC Camera : 14.388600 s
+FAST with n= 1876 keypoints in 1.05434 ms
+BRIEF descriptor extraction in 8.70276 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1736 matches in 25.2634 ms
+matches matches size(): 1736
+TTC Lidar : 7.205664 s, TTC Camera : 19.951125 s
+FAST with n= 1843 keypoints in 1.02911 ms
+BRIEF descriptor extraction in 7.14467 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1732 matches in 26.776 ms
+matches matches size(): 1732
+TTC Lidar : 12.421338 s, TTC Camera : 13.293001 s
+FAST with n= 1829 keypoints in 0.991012 ms
+BRIEF descriptor extraction in 7.74536 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1707 matches in 23.9816 ms
+matches matches size(): 1707
+TTC Lidar : 34.340420 s, TTC Camera : 12.218158 s
+FAST with n= 1843 keypoints in 1.10213 ms
+BRIEF descriptor extraction in 10.175 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1675 matches in 22.8064 ms
+matches matches size(): 1675
+TTC Lidar : 18.787518 s, TTC Camera : 12.654081 s
+FAST with n= 1818 keypoints in 1.30991 ms
+BRIEF descriptor extraction in 10.4115 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1690 matches in 22.5973 ms
+matches matches size(): 1690
+TTC Lidar : 15.889385 s, TTC Camera : 12.600000 s
+FAST with n= 1879 keypoints in 1.18547 ms
+BRIEF descriptor extraction in 10.5709 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1665 matches in 23.1137 ms
+matches matches size(): 1665
+TTC Lidar : 13.729655 s, TTC Camera : 13.463745 s
+FAST with n= 1849 keypoints in 1.06087 ms
+BRIEF descriptor extraction in 9.3193 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1714 matches in 23.4349 ms
+matches matches size(): 1714
+TTC Lidar : 10.491403 s, TTC Camera : 13.671652 s
+FAST with n= 1826 keypoints in 1.03127 ms
+BRIEF descriptor extraction in 9.6008 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1705 matches in 22.4909 ms
+matches matches size(): 1705
+TTC Lidar : 10.099996 s, TTC Camera : 10.908666 s
+FAST with n= 1842 keypoints in 1.29407 ms
+BRIEF descriptor extraction in 9.82573 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1668 matches in 22.56 ms
+matches matches size(): 1668
+TTC Lidar : 9.223069 s, TTC Camera : 12.370474 s
+FAST with n= 1833 keypoints in 0.930474 ms
+BRIEF descriptor extraction in 9.91591 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1688 matches in 22.3368 ms
+matches matches size(): 1688
+TTC Lidar : 10.967763 s, TTC Camera : 11.243144 s
+FAST with n= 1921 keypoints in 1.23399 ms
+BRIEF descriptor extraction in 11.8932 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1677 matches in 25.7761 ms
+matches matches size(): 1677
+TTC Lidar : 8.094218 s, TTC Camera : 11.852537 s
+FAST with n= 1934 keypoints in 1.04047 ms
+BRIEF descriptor extraction in 7.05654 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1752 matches in 25.9693 ms
+matches matches size(): 1752
+TTC Lidar : 8.813924 s, TTC Camera : 12.036188 s
+FAST with n= 1946 keypoints in 1.22197 ms
+BRIEF descriptor extraction in 9.06677 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1762 matches in 24.4088 ms
+matches matches size(): 1762
+TTC Lidar : 10.292551 s, TTC Camera : 7.920127 s
+FAST with n= 1961 keypoints in 1.13746 ms
+BRIEF descriptor extraction in 9.24477 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1763 matches in 24.4109 ms
+matches matches size(): 1763
+TTC Lidar : 8.309779 s, TTC Camera : 11.553986 s
+
+
+######################### FAST, BRISK #########################
+
+FAST with n= 1864 keypoints in 1.09661 ms
+BRISK descriptor extraction in 21.6962 ms
+FAST with n= 1898 keypoints in 0.849384 ms
+BRISK descriptor extraction in 15.3589 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1806 matches in 27.1186 ms
+matches matches size(): 1806
+TTC Lidar : 12.972159 s, TTC Camera : 12.750266 s
+FAST with n= 1865 keypoints in 1.15155 ms
+BRISK descriptor extraction in 15.0704 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1841 matches in 28.0849 ms
+matches matches size(): 1841
+TTC Lidar : 12.264038 s, TTC Camera : 11.903263 s
+FAST with n= 1840 keypoints in 1.23091 ms
+BRISK descriptor extraction in 14.9373 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1810 matches in 26.4584 ms
+matches matches size(): 1810
+TTC Lidar : 16.963042 s, TTC Camera : 13.574611 s
+FAST with n= 1867 keypoints in 1.31532 ms
+BRISK descriptor extraction in 24.765 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1789 matches in 44.5087 ms
+matches matches size(): 1789
+TTC Lidar : 13.125420 s, TTC Camera : 12.528686 s
+FAST with n= 1876 keypoints in 0.999917 ms
+BRISK descriptor extraction in 15.1557 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1819 matches in 28.9025 ms
+matches matches size(): 1819
+TTC Lidar : 7.205664 s, TTC Camera : 138.026452 s
+FAST with n= 1843 keypoints in 1.01349 ms
+BRISK descriptor extraction in 14.8495 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1823 matches in 28.1063 ms
+matches matches size(): 1823
+TTC Lidar : 12.421338 s, TTC Camera : 12.338123 s
+FAST with n= 1829 keypoints in 1.10585 ms
+BRISK descriptor extraction in 14.8058 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1788 matches in 26.8902 ms
+matches matches size(): 1788
+TTC Lidar : 34.340420 s, TTC Camera : 32.134890 s
+FAST with n= 1843 keypoints in 1.24376 ms
+BRISK descriptor extraction in 15.1257 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1772 matches in 26.8874 ms
+matches matches size(): 1772
+TTC Lidar : 18.787518 s, TTC Camera : 10.621905 s
+FAST with n= 1818 keypoints in 1.0172 ms
+BRISK descriptor extraction in 14.5472 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1785 matches in 25.7735 ms
+matches matches size(): 1785
+TTC Lidar : 15.889385 s, TTC Camera : 14.135702 s
+FAST with n= 1879 keypoints in 1.30301 ms
+BRISK descriptor extraction in 14.9717 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1737 matches in 26.0251 ms
+matches matches size(): 1737
+TTC Lidar : 13.729655 s, TTC Camera : 12.668408 s
+FAST with n= 1849 keypoints in 1.07468 ms
+BRISK descriptor extraction in 15.017 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1798 matches in 27.3562 ms
+matches matches size(): 1798
+TTC Lidar : 10.491403 s, TTC Camera : 14.442054 s
+FAST with n= 1826 keypoints in 1.01592 ms
+BRISK descriptor extraction in 14.7468 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1796 matches in 26.2373 ms
+matches matches size(): 1796
+TTC Lidar : 10.099996 s, TTC Camera : 11.476595 s
+FAST with n= 1842 keypoints in 1.27424 ms
+BRISK descriptor extraction in 14.8964 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1760 matches in 26.7899 ms
+matches matches size(): 1760
+TTC Lidar : 9.223069 s, TTC Camera : 12.139305 s
+FAST with n= 1833 keypoints in 1.22529 ms
+BRISK descriptor extraction in 14.7696 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1787 matches in 26.3672 ms
+matches matches size(): 1787
+TTC Lidar : 10.967763 s, TTC Camera : 13.288496 s
+FAST with n= 1921 keypoints in 1.04537 ms
+BRISK descriptor extraction in 15.5276 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1773 matches in 27.4243 ms
+matches matches size(): 1773
+TTC Lidar : 8.094218 s, TTC Camera : 12.677848 s
+FAST with n= 1934 keypoints in 1.25783 ms
+BRISK descriptor extraction in 15.6762 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1871 matches in 29.2445 ms
+matches matches size(): 1871
+TTC Lidar : 8.813924 s, TTC Camera : 12.134511 s
+FAST with n= 1946 keypoints in 1.26131 ms
+BRISK descriptor extraction in 16.0059 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1877 matches in 30.0047 ms
+matches matches size(): 1877
+TTC Lidar : 10.292551 s, TTC Camera : 9.414307 s
+FAST with n= 1961 keypoints in 1.41017 ms
+BRISK descriptor extraction in 15.7702 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1872 matches in 29.4754 ms
+matches matches size(): 1872
+TTC Lidar : 8.309779 s, TTC Camera : 11.749155 s
+
+
+######################### FAST, ORB #########################
+
+FAST with n= 1864 keypoints in 1.26231 ms
+ORB descriptor extraction in 62.1477 ms
+FAST with n= 1898 keypoints in 1.25616 ms
+ORB descriptor extraction in 4.28188 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1716 matches in 25.9455 ms
+matches matches size(): 1716
+TTC Lidar : 12.972159 s, TTC Camera : 11.010505 s
+FAST with n= 1865 keypoints in 1.03072 ms
+ORB descriptor extraction in 3.23195 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1759 matches in 25.9507 ms
+matches matches size(): 1759
+TTC Lidar : 12.264038 s, TTC Camera : 10.758689 s
+FAST with n= 1840 keypoints in 1.33654 ms
+ORB descriptor extraction in 4.31553 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1728 matches in 24.383 ms
+matches matches size(): 1728
+TTC Lidar : 16.963042 s, TTC Camera : 11.416711 s
+FAST with n= 1867 keypoints in 1.02023 ms
+ORB descriptor extraction in 3.82953 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1711 matches in 23.8855 ms
+matches matches size(): 1711
+TTC Lidar : 13.125420 s, TTC Camera : 12.833772 s
+FAST with n= 1876 keypoints in 1.24432 ms
+ORB descriptor extraction in 4.07729 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1723 matches in 23.9681 ms
+matches matches size(): 1723
+TTC Lidar : 7.205664 s, TTC Camera : 17.819468 s
+FAST with n= 1843 keypoints in 1.25123 ms
+ORB descriptor extraction in 3.81346 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1710 matches in 23.243 ms
+matches matches size(): 1710
+TTC Lidar : 12.421338 s, TTC Camera : 12.999130 s
+FAST with n= 1829 keypoints in 1.19633 ms
+ORB descriptor extraction in 3.57491 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1684 matches in 23.7149 ms
+matches matches size(): 1684
+TTC Lidar : 34.340420 s, TTC Camera : 11.602503 s
+FAST with n= 1843 keypoints in 1.02679 ms
+ORB descriptor extraction in 3.50394 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1660 matches in 23.3276 ms
+matches matches size(): 1660
+TTC Lidar : 18.787518 s, TTC Camera : 11.168671 s
+FAST with n= 1818 keypoints in 1.22367 ms
+ORB descriptor extraction in 3.55895 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1678 matches in 23.4093 ms
+matches matches size(): 1678
+TTC Lidar : 15.889385 s, TTC Camera : 12.111922 s
+FAST with n= 1879 keypoints in 1.04504 ms
+ORB descriptor extraction in 4.25398 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1652 matches in 24.9677 ms
+matches matches size(): 1652
+TTC Lidar : 13.729655 s, TTC Camera : 13.344794 s
+FAST with n= 1849 keypoints in 1.19956 ms
+ORB descriptor extraction in 4.01148 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1699 matches in 23.1042 ms
+matches matches size(): 1699
+TTC Lidar : 10.491403 s, TTC Camera : 13.788001 s
+FAST with n= 1826 keypoints in 1.01808 ms
+ORB descriptor extraction in 3.55141 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1687 matches in 23.1611 ms
+matches matches size(): 1687
+TTC Lidar : 10.099996 s, TTC Camera : 10.895543 s
+FAST with n= 1842 keypoints in 1.25086 ms
+ORB descriptor extraction in 4.38906 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1645 matches in 22.9246 ms
+matches matches size(): 1645
+TTC Lidar : 9.223069 s, TTC Camera : 12.041135 s
+FAST with n= 1833 keypoints in 1.30366 ms
+ORB descriptor extraction in 4.17274 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1659 matches in 24.1207 ms
+matches matches size(): 1659
+TTC Lidar : 10.967763 s, TTC Camera : 10.730300 s
+FAST with n= 1921 keypoints in 1.02949 ms
+ORB descriptor extraction in 3.56417 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1647 matches in 25.3811 ms
+matches matches size(): 1647
+TTC Lidar : 8.094218 s, TTC Camera : 11.407860 s
+FAST with n= 1934 keypoints in 1.03756 ms
+ORB descriptor extraction in 3.71575 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1722 matches in 26.1275 ms
+matches matches size(): 1722
+TTC Lidar : 8.813924 s, TTC Camera : 11.194807 s
+FAST with n= 1946 keypoints in 1.11565 ms
+ORB descriptor extraction in 4.09731 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1736 matches in 23.4467 ms
+matches matches size(): 1736
+TTC Lidar : 10.292551 s, TTC Camera : 7.854136 s
+FAST with n= 1961 keypoints in 1.41682 ms
+ORB descriptor extraction in 3.98923 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1740 matches in 26.0101 ms
+matches matches size(): 1740
+TTC Lidar : 8.309779 s, TTC Camera : 10.609901 s
+
+
+######################### FAST, FREAK #########################
+
+FAST with n= 1864 keypoints in 1.30908 ms
+FREAK descriptor extraction in 50.169 ms
+FAST with n= 1898 keypoints in 1.02664 ms
+FREAK descriptor extraction in 49.1284 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1749 matches in 27.0544 ms
+matches matches size(): 1749
+TTC Lidar : 12.972159 s, TTC Camera : 12.750266 s
+FAST with n= 1865 keypoints in 0.78104 ms
+FREAK descriptor extraction in 46.2887 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1791 matches in 26.9205 ms
+matches matches size(): 1791
+TTC Lidar : 12.264038 s, TTC Camera : 28.829730 s
+FAST with n= 1840 keypoints in 1.25892 ms
+FREAK descriptor extraction in 46.9919 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1766 matches in 24.425 ms
+matches matches size(): 1766
+TTC Lidar : 16.963042 s, TTC Camera : 15.645585 s
+FAST with n= 1867 keypoints in 1.02752 ms
+FREAK descriptor extraction in 48.347 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1742 matches in 26.1417 ms
+matches matches size(): 1742
+TTC Lidar : 13.125420 s, TTC Camera : 17.283918 s
+FAST with n= 1876 keypoints in 1.16999 ms
+FREAK descriptor extraction in 48.79 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1755 matches in 25.7577 ms
+matches matches size(): 1755
+TTC Lidar : 7.205664 s, TTC Camera : 15.752369 s
+FAST with n= 1843 keypoints in 1.24153 ms
+FREAK descriptor extraction in 48.4521 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1757 matches in 25.6095 ms
+matches matches size(): 1757
+TTC Lidar : 12.421338 s, TTC Camera : 14.218452 s
+FAST with n= 1829 keypoints in 1.02595 ms
+FREAK descriptor extraction in 49.5029 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1732 matches in 25.0089 ms
+matches matches size(): 1732
+TTC Lidar : 34.340420 s, TTC Camera : 15.447145 s
+FAST with n= 1843 keypoints in 1.01696 ms
+FREAK descriptor extraction in 47.5057 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1699 matches in 24.6224 ms
+matches matches size(): 1699
+TTC Lidar : 18.787518 s, TTC Camera : 12.040432 s
+FAST with n= 1818 keypoints in 1.033 ms
+FREAK descriptor extraction in 46.214 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1711 matches in 24.1957 ms
+matches matches size(): 1711
+TTC Lidar : 15.889385 s, TTC Camera : 12.042143 s
+FAST with n= 1879 keypoints in 1.07252 ms
+FREAK descriptor extraction in 47.7633 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1686 matches in 25.1689 ms
+matches matches size(): 1686
+TTC Lidar : 13.729655 s, TTC Camera : 13.463745 s
+FAST with n= 1849 keypoints in 1.34675 ms
+FREAK descriptor extraction in 46.9397 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1733 matches in 25.9836 ms
+matches matches size(): 1733
+TTC Lidar : 10.491403 s, TTC Camera : 13.206793 s
+FAST with n= 1826 keypoints in 1.29498 ms
+FREAK descriptor extraction in 47.7382 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1736 matches in 25.4019 ms
+matches matches size(): 1736
+TTC Lidar : 10.099996 s, TTC Camera : 11.844758 s
+FAST with n= 1842 keypoints in 1.05336 ms
+FREAK descriptor extraction in 47.111 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1697 matches in 25.1957 ms
+matches matches size(): 1697
+TTC Lidar : 9.223069 s, TTC Camera : 12.566927 s
+FAST with n= 1833 keypoints in 1.0308 ms
+FREAK descriptor extraction in 47.3623 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1719 matches in 24.2121 ms
+matches matches size(): 1719
+TTC Lidar : 10.967763 s, TTC Camera : 11.866813 s
+FAST with n= 1921 keypoints in 1.03179 ms
+FREAK descriptor extraction in 45.9694 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1706 matches in 25.5211 ms
+matches matches size(): 1706
+TTC Lidar : 8.094218 s, TTC Camera : 11.192251 s
+FAST with n= 1934 keypoints in 1.07606 ms
+FREAK descriptor extraction in 47.5155 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1789 matches in 27.3332 ms
+matches matches size(): 1789
+TTC Lidar : 8.813924 s, TTC Camera : 12.068872 s
+FAST with n= 1946 keypoints in 1.18837 ms
+FREAK descriptor extraction in 58.7821 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1795 matches in 30.1488 ms
+matches matches size(): 1795
+TTC Lidar : 10.292551 s, TTC Camera : 9.944105 s
+FAST with n= 1961 keypoints in 1.27242 ms
+FREAK descriptor extraction in 53.5139 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1785 matches in 31.1921 ms
+matches matches size(): 1785
+TTC Lidar : 8.309779 s, TTC Camera : 12.055010 s
+
+
+######################### Shi-Tomasi, BRIEF #########################
+
+Shi-Tomasi detection with n=1723 keypoints in 155.977 ms
+BRIEF descriptor extraction in 6.24995 ms
+Shi-Tomasi detection with n=1759 keypoints in 10.9272 ms
+BRIEF descriptor extraction in 10.4701 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1534 matches in 20.7375 ms
+matches matches size(): 1534
+TTC Lidar : 12.972159 s, TTC Camera : 14.675606 s
+Shi-Tomasi detection with n=1820 keypoints in 11.2775 ms
+BRIEF descriptor extraction in 8.77566 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1564 matches in 23.992 ms
+matches matches size(): 1564
+TTC Lidar : 12.264038 s, TTC Camera : 14.401925 s
+Shi-Tomasi detection with n=1850 keypoints in 12.6248 ms
+BRIEF descriptor extraction in 8.68528 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1621 matches in 19.7784 ms
+matches matches size(): 1621
+TTC Lidar : 16.963042 s, TTC Camera : 9.739782 s
+Shi-Tomasi detection with n=1828 keypoints in 9.87046 ms
+BRIEF descriptor extraction in 9.9117 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1652 matches in 24.8614 ms
+matches matches size(): 1652
+TTC Lidar : 13.125420 s, TTC Camera : 14.982014 s
+Shi-Tomasi detection with n=1806 keypoints in 13.9108 ms
+BRIEF descriptor extraction in 18.8627 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1621 matches in 21.295 ms
+matches matches size(): 1621
+TTC Lidar : 7.205664 s, TTC Camera : 12.750266 s
+Shi-Tomasi detection with n=1877 keypoints in 12.0746 ms
+BRIEF descriptor extraction in 10.2021 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1582 matches in 22.7798 ms
+matches matches size(): 1582
+TTC Lidar : 12.421338 s, TTC Camera : 13.270325 s
+Shi-Tomasi detection with n=1894 keypoints in 14.2179 ms
+BRIEF descriptor extraction in 11.0948 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1609 matches in 22.725 ms
+matches matches size(): 1609
+TTC Lidar : 34.340420 s, TTC Camera : 15.266356 s
+Shi-Tomasi detection with n=1889 keypoints in 11.7142 ms
+BRIEF descriptor extraction in 15.397 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1622 matches in 38.8529 ms
+matches matches size(): 1622
+TTC Lidar : 18.787518 s, TTC Camera : 12.084728 s
+Shi-Tomasi detection with n=1917 keypoints in 11.1828 ms
+BRIEF descriptor extraction in 6.61959 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1621 matches in 23.8946 ms
+matches matches size(): 1621
+TTC Lidar : 15.889385 s, TTC Camera : 11.870303 s
+Shi-Tomasi detection with n=1874 keypoints in 12.7373 ms
+BRIEF descriptor extraction in 12.3347 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1654 matches in 22.1359 ms
+matches matches size(): 1654
+TTC Lidar : 13.729655 s, TTC Camera : 12.628459 s
+Shi-Tomasi detection with n=1912 keypoints in 9.94806 ms
+BRIEF descriptor extraction in 9.45457 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1608 matches in 22.3861 ms
+matches matches size(): 1608
+TTC Lidar : 10.491403 s, TTC Camera : 11.850671 s
+Shi-Tomasi detection with n=1930 keypoints in 13.1729 ms
+BRIEF descriptor extraction in 19.5539 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1657 matches in 24.8953 ms
+matches matches size(): 1657
+TTC Lidar : 10.099996 s, TTC Camera : 11.764227 s
+Shi-Tomasi detection with n=1880 keypoints in 12.7346 ms
+BRIEF descriptor extraction in 14.4181 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1654 matches in 25.237 ms
+matches matches size(): 1654
+TTC Lidar : 9.223069 s, TTC Camera : 11.719680 s
+Shi-Tomasi detection with n=1886 keypoints in 11.8017 ms
+BRIEF descriptor extraction in 12.0706 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1633 matches in 25.5521 ms
+matches matches size(): 1633
+TTC Lidar : 10.967763 s, TTC Camera : 11.355696 s
+Shi-Tomasi detection with n=1957 keypoints in 10.0737 ms
+BRIEF descriptor extraction in 8.80208 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1640 matches in 22.964 ms
+matches matches size(): 1640
+TTC Lidar : 8.094218 s, TTC Camera : 12.198262 s
+Shi-Tomasi detection with n=1888 keypoints in 12.7258 ms
+BRIEF descriptor extraction in 12.656 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1707 matches in 27 ms
+matches matches size(): 1707
+TTC Lidar : 8.813924 s, TTC Camera : 8.239608 s
+Shi-Tomasi detection with n=1919 keypoints in 13.4013 ms
+BRIEF descriptor extraction in 13.5002 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1646 matches in 26.1983 ms
+matches matches size(): 1646
+TTC Lidar : 10.292551 s, TTC Camera : 11.138191 s
+Shi-Tomasi detection with n=2055 keypoints in 13.9527 ms
+BRIEF descriptor extraction in 10.7492 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1683 matches in 24.0814 ms
+matches matches size(): 1683
+TTC Lidar : 8.309779 s, TTC Camera : 8.430966 s
+
+
+######################### Shi-Tomasi, ORB #########################
+
+Shi-Tomasi detection with n=1723 keypoints in 13.2394 ms
+ORB descriptor extraction in 4.34198 ms
+Shi-Tomasi detection with n=1759 keypoints in 11.569 ms
+ORB descriptor extraction in 3.36495 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1517 matches in 20.734 ms
+matches matches size(): 1517
+TTC Lidar : 12.972159 s, TTC Camera : 13.874319 s
+Shi-Tomasi detection with n=1820 keypoints in 12.826 ms
+ORB descriptor extraction in 3.97169 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1548 matches in 22.2908 ms
+matches matches size(): 1548
+TTC Lidar : 12.264038 s, TTC Camera : 11.393861 s
+Shi-Tomasi detection with n=1850 keypoints in 10.0025 ms
+ORB descriptor extraction in 3.2222 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1598 matches in 23.0017 ms
+matches matches size(): 1598
+TTC Lidar : 16.963042 s, TTC Camera : 12.067155 s
+Shi-Tomasi detection with n=1828 keypoints in 10.8483 ms
+ORB descriptor extraction in 4.13899 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1628 matches in 23.4186 ms
+matches matches size(): 1628
+TTC Lidar : 13.125420 s, TTC Camera : 13.079095 s
+Shi-Tomasi detection with n=1806 keypoints in 13.5384 ms
+ORB descriptor extraction in 5.63904 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1603 matches in 20.2576 ms
+matches matches size(): 1603
+TTC Lidar : 7.205664 s, TTC Camera : 12.100000 s
+Shi-Tomasi detection with n=1877 keypoints in 13.301 ms
+ORB descriptor extraction in 4.77306 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1569 matches in 21.767 ms
+matches matches size(): 1569
+TTC Lidar : 12.421338 s, TTC Camera : 13.253275 s
+Shi-Tomasi detection with n=1894 keypoints in 10.9267 ms
+ORB descriptor extraction in 4.67097 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1585 matches in 22.9743 ms
+matches matches size(): 1585
+TTC Lidar : 34.340420 s, TTC Camera : 12.859503 s
+Shi-Tomasi detection with n=1889 keypoints in 13.7748 ms
+ORB descriptor extraction in 4.95315 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1604 matches in 21.4278 ms
+matches matches size(): 1604
+TTC Lidar : 18.787518 s, TTC Camera : 11.920921 s
+Shi-Tomasi detection with n=1917 keypoints in 10.5724 ms
+ORB descriptor extraction in 3.69293 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1602 matches in 21.9968 ms
+matches matches size(): 1602
+TTC Lidar : 15.889385 s, TTC Camera : 11.265304 s
+Shi-Tomasi detection with n=1874 keypoints in 9.98416 ms
+ORB descriptor extraction in 3.30417 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1634 matches in 22.5753 ms
+matches matches size(): 1634
+TTC Lidar : 13.729655 s, TTC Camera : 13.864840 s
+Shi-Tomasi detection with n=1912 keypoints in 10.0688 ms
+ORB descriptor extraction in 3.2495 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1581 matches in 22.4009 ms
+matches matches size(): 1581
+TTC Lidar : 10.491403 s, TTC Camera : 11.470636 s
+Shi-Tomasi detection with n=1930 keypoints in 15.6381 ms
+ORB descriptor extraction in 4.56077 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1630 matches in 24.0736 ms
+matches matches size(): 1630
+TTC Lidar : 10.099996 s, TTC Camera : 11.561522 s
+Shi-Tomasi detection with n=1880 keypoints in 9.9906 ms
+ORB descriptor extraction in 4.3308 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1630 matches in 21.8135 ms
+matches matches size(): 1630
+TTC Lidar : 9.223069 s, TTC Camera : 11.634088 s
+Shi-Tomasi detection with n=1886 keypoints in 11.0678 ms
+ORB descriptor extraction in 4.43087 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1611 matches in 21.0616 ms
+matches matches size(): 1611
+TTC Lidar : 10.967763 s, TTC Camera : 11.426038 s
+Shi-Tomasi detection with n=1957 keypoints in 12.3432 ms
+ORB descriptor extraction in 4.94882 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1609 matches in 23.8422 ms
+matches matches size(): 1609
+TTC Lidar : 8.094218 s, TTC Camera : 10.690536 s
+Shi-Tomasi detection with n=1888 keypoints in 9.94319 ms
+ORB descriptor extraction in 3.20219 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1676 matches in 23.9868 ms
+matches matches size(): 1676
+TTC Lidar : 8.813924 s, TTC Camera : 9.897687 s
+Shi-Tomasi detection with n=1919 keypoints in 10.2959 ms
+ORB descriptor extraction in 4.92955 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1619 matches in 23.8288 ms
+matches matches size(): 1619
+TTC Lidar : 10.292551 s, TTC Camera : 9.538299 s
+Shi-Tomasi detection with n=2055 keypoints in 12.5623 ms
+ORB descriptor extraction in 5.0883 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1660 matches in 24.3045 ms
+matches matches size(): 1660
+TTC Lidar : 8.309779 s, TTC Camera : 8.217105 s
+
+
+######################### Shi-Tomasi, BRISK #########################
+
+Shi-Tomasi detection with n=1723 keypoints in 67.2186 ms
+BRISK descriptor extraction in 14.2985 ms
+Shi-Tomasi detection with n=1759 keypoints in 9.81372 ms
+BRISK descriptor extraction in 27.1005 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=797 matches in 29.4587 ms
+matches matches size(): 797
+TTC Lidar : 12.972159 s, TTC Camera : 14.111854 s
+Shi-Tomasi detection with n=1820 keypoints in 11.4704 ms
+BRISK descriptor extraction in 14.7465 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=779 matches in 25.7804 ms
+matches matches size(): 779
+TTC Lidar : 12.264038 s, TTC Camera : 12.987607 s
+Shi-Tomasi detection with n=1850 keypoints in 12.8012 ms
+BRISK descriptor extraction in 15.2293 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=843 matches in 28.0005 ms
+matches matches size(): 843
+TTC Lidar : 16.963042 s, TTC Camera : 13.490395 s
+Shi-Tomasi detection with n=1828 keypoints in 12.4061 ms
+BRISK descriptor extraction in 18.5807 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=792 matches in 28.4856 ms
+matches matches size(): 792
+TTC Lidar : 13.125420 s, TTC Camera : 12.397977 s
+Shi-Tomasi detection with n=1806 keypoints in 11.4742 ms
+BRISK descriptor extraction in 14.6127 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=817 matches in 25.69 ms
+matches matches size(): 817
+TTC Lidar : 7.205664 s, TTC Camera : 12.675404 s
+Shi-Tomasi detection with n=1877 keypoints in 10.3182 ms
+BRISK descriptor extraction in 15.0576 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=805 matches in 25.806 ms
+matches matches size(): 805
+TTC Lidar : 12.421338 s, TTC Camera : 14.502875 s
+Shi-Tomasi detection with n=1894 keypoints in 12.0858 ms
+BRISK descriptor extraction in 15.1425 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=780 matches in 28.0949 ms
+matches matches size(): 780
+TTC Lidar : 34.340420 s, TTC Camera : 12.911710 s
+Shi-Tomasi detection with n=1889 keypoints in 12.0712 ms
+BRISK descriptor extraction in 14.8926 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=850 matches in 27.609 ms
+matches matches size(): 850
+TTC Lidar : 18.787518 s, TTC Camera : 15.599668 s
+Shi-Tomasi detection with n=1917 keypoints in 9.84873 ms
+BRISK descriptor extraction in 15.1928 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=842 matches in 29.628 ms
+matches matches size(): 842
+TTC Lidar : 15.889385 s, TTC Camera : 11.512622 s
+Shi-Tomasi detection with n=1874 keypoints in 13.6236 ms
+BRISK descriptor extraction in 15.0919 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=832 matches in 26.8659 ms
+matches matches size(): 832
+TTC Lidar : 13.729655 s, TTC Camera : 14.685036 s
+Shi-Tomasi detection with n=1912 keypoints in 11.8672 ms
+BRISK descriptor extraction in 15.2939 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=857 matches in 26.8582 ms
+matches matches size(): 857
+TTC Lidar : 10.491403 s, TTC Camera : 11.302411 s
+Shi-Tomasi detection with n=1930 keypoints in 9.87678 ms
+BRISK descriptor extraction in 15.7223 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=849 matches in 29.5242 ms
+matches matches size(): 849
+TTC Lidar : 10.099996 s, TTC Camera : 11.652406 s
+Shi-Tomasi detection with n=1880 keypoints in 10.9597 ms
+BRISK descriptor extraction in 15.3138 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=884 matches in 27.5487 ms
+matches matches size(): 884
+TTC Lidar : 9.223069 s, TTC Camera : 11.724344 s
+Shi-Tomasi detection with n=1886 keypoints in 14.2261 ms
+BRISK descriptor extraction in 14.8443 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=889 matches in 27.4285 ms
+matches matches size(): 889
+TTC Lidar : 10.967763 s, TTC Camera : 11.506854 s
+Shi-Tomasi detection with n=1957 keypoints in 11.6188 ms
+BRISK descriptor extraction in 15.6979 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=906 matches in 30.2326 ms
+matches matches size(): 906
+TTC Lidar : 8.094218 s, TTC Camera : 9.337846 s
+Shi-Tomasi detection with n=1888 keypoints in 12.718 ms
+BRISK descriptor extraction in 15.1111 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=878 matches in 28.5026 ms
+matches matches size(): 878
+TTC Lidar : 8.813924 s, TTC Camera : 11.307930 s
+Shi-Tomasi detection with n=1919 keypoints in 13.1835 ms
+BRISK descriptor extraction in 15.5176 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=914 matches in 25.9593 ms
+matches matches size(): 914
+TTC Lidar : 10.292551 s, TTC Camera : 11.448724 s
+Shi-Tomasi detection with n=2055 keypoints in 10.673 ms
+BRISK descriptor extraction in 16.5016 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=959 matches in 30.1661 ms
+matches matches size(): 959
+TTC Lidar : 8.309779 s, TTC Camera : 9.127923 s
+
+
+######################### Shi-Tomasi, FREAK #########################
+
+Shi-Tomasi detection with n=1723 keypoints in 14.385 ms
+FREAK descriptor extraction in 47.7159 ms
+Shi-Tomasi detection with n=1759 keypoints in 12.5745 ms
+FREAK descriptor extraction in 47.5985 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=812 matches in 24.1886 ms
+matches matches size(): 812
+TTC Lidar : 12.972159 s, TTC Camera : 13.724887 s
+Shi-Tomasi detection with n=1820 keypoints in 10.2519 ms
+FREAK descriptor extraction in 51.9455 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=814 matches in 24.4655 ms
+matches matches size(): 814
+TTC Lidar : 12.264038 s, TTC Camera : 13.148670 s
+Shi-Tomasi detection with n=1850 keypoints in 13.8993 ms
+FREAK descriptor extraction in 57.5626 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=878 matches in 28.118 ms
+matches matches size(): 878
+TTC Lidar : 16.963042 s, TTC Camera : 11.412623 s
+Shi-Tomasi detection with n=1828 keypoints in 9.80021 ms
+FREAK descriptor extraction in 48.4587 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=851 matches in 26.1402 ms
+matches matches size(): 851
+TTC Lidar : 13.125420 s, TTC Camera : 12.542484 s
+Shi-Tomasi detection with n=1806 keypoints in 10.2096 ms
+FREAK descriptor extraction in 50.0102 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=874 matches in 24.8943 ms
+matches matches size(): 874
+TTC Lidar : 7.205664 s, TTC Camera : 12.300000 s
+Shi-Tomasi detection with n=1877 keypoints in 12.4558 ms
+FREAK descriptor extraction in 50.7053 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=845 matches in 25.8246 ms
+matches matches size(): 845
+TTC Lidar : 12.421338 s, TTC Camera : 14.238518 s
+Shi-Tomasi detection with n=1894 keypoints in 9.90811 ms
+FREAK descriptor extraction in 47.8584 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=831 matches in 25.5025 ms
+matches matches size(): 831
+TTC Lidar : 34.340420 s, TTC Camera : 12.564543 s
+Shi-Tomasi detection with n=1889 keypoints in 13.1274 ms
+FREAK descriptor extraction in 48.2487 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=870 matches in 23.4057 ms
+matches matches size(): 870
+TTC Lidar : 18.787518 s, TTC Camera : 12.851473 s
+Shi-Tomasi detection with n=1917 keypoints in 11.0403 ms
+FREAK descriptor extraction in 51.3124 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=863 matches in 25.9199 ms
+matches matches size(): 863
+TTC Lidar : 15.889385 s, TTC Camera : 12.041425 s
+Shi-Tomasi detection with n=1874 keypoints in 10.5794 ms
+FREAK descriptor extraction in 49.0415 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=860 matches in 25.9606 ms
+matches matches size(): 860
+TTC Lidar : 13.729655 s, TTC Camera : 13.008396 s
+Shi-Tomasi detection with n=1912 keypoints in 12.8585 ms
+FREAK descriptor extraction in 53.7552 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=861 matches in 24.9639 ms
+matches matches size(): 861
+TTC Lidar : 10.491403 s, TTC Camera : 11.985539 s
+Shi-Tomasi detection with n=1930 keypoints in 11.3545 ms
+FREAK descriptor extraction in 51.6678 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=885 matches in 26.0249 ms
+matches matches size(): 885
+TTC Lidar : 10.099996 s, TTC Camera : 11.822715 s
+Shi-Tomasi detection with n=1880 keypoints in 11.2707 ms
+FREAK descriptor extraction in 51.7241 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=879 matches in 25.4113 ms
+matches matches size(): 879
+TTC Lidar : 9.223069 s, TTC Camera : 12.343584 s
+Shi-Tomasi detection with n=1886 keypoints in 12.0201 ms
+FREAK descriptor extraction in 52.9959 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=886 matches in 25.489 ms
+matches matches size(): 886
+TTC Lidar : 10.967763 s, TTC Camera : 11.851660 s
+Shi-Tomasi detection with n=1957 keypoints in 11.8618 ms
+FREAK descriptor extraction in 48.7682 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=892 matches in 25.7376 ms
+matches matches size(): 892
+TTC Lidar : 8.094218 s, TTC Camera : 10.296963 s
+Shi-Tomasi detection with n=1888 keypoints in 11.8239 ms
+FREAK descriptor extraction in 51.7034 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=899 matches in 26.4392 ms
+matches matches size(): 899
+TTC Lidar : 8.813924 s, TTC Camera : 11.315296 s
+Shi-Tomasi detection with n=1919 keypoints in 11.6655 ms
+FREAK descriptor extraction in 47.9077 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=949 matches in 25.5242 ms
+matches matches size(): 949
+TTC Lidar : 10.292551 s, TTC Camera : 11.448724 s
+Shi-Tomasi detection with n=2055 keypoints in 13.4139 ms
+FREAK descriptor extraction in 52.7396 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=951 matches in 29.1821 ms
+matches matches size(): 951
+TTC Lidar : 8.309779 s, TTC Camera : 9.188094 s
+
+
+######################### BRISK, BRISK #########################
+
+BRISK with n= 2896 keypoints in 59.0177 ms
+BRISK descriptor extraction in 24.4552 ms
+BRISK with n= 3000 keypoints in 40.5297 ms
+BRISK descriptor extraction in 25.0553 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=2896 matches in 68.5178 ms
+matches matches size(): 2896
+TTC Lidar : 12.972159 s, TTC Camera : 14.510610 s
+BRISK with n= 2974 keypoints in 33.5588 ms
+BRISK descriptor extraction in 25.0206 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=3000 matches in 69.2647 ms
+matches matches size(): 3000
+TTC Lidar : 12.264038 s, TTC Camera : 15.044072 s
+BRISK with n= 2953 keypoints in 34.6965 ms
+BRISK descriptor extraction in 25.9561 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=2974 matches in 71.2506 ms
+matches matches size(): 2974
+TTC Lidar : 16.963042 s, TTC Camera : 12.404522 s
+BRISK with n= 2855 keypoints in 33.0114 ms
+BRISK descriptor extraction in 24.0888 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=2953 matches in 69.4539 ms
+matches matches size(): 2953
+TTC Lidar : 13.125420 s, TTC Camera : 15.235540 s
+BRISK with n= 2906 keypoints in 34.2475 ms
+BRISK descriptor extraction in 24.6174 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=2855 matches in 64.5631 ms
+matches matches size(): 2855
+TTC Lidar : 7.205664 s, TTC Camera : 25.185299 s
+BRISK with n= 2886 keypoints in 33.6832 ms
+BRISK descriptor extraction in 24.6355 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=2906 matches in 65.4145 ms
+matches matches size(): 2906
+TTC Lidar : 12.421338 s, TTC Camera : 15.979729 s
+BRISK with n= 2886 keypoints in 34.2214 ms
+BRISK descriptor extraction in 24.5299 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=2886 matches in 64.8194 ms
+matches matches size(): 2886
+TTC Lidar : 34.340420 s, TTC Camera : 18.214118 s
+BRISK with n= 2893 keypoints in 34.6939 ms
+BRISK descriptor extraction in 24.6384 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=2886 matches in 64.8897 ms
+matches matches size(): 2886
+TTC Lidar : 18.787518 s, TTC Camera : 17.310085 s
+BRISK with n= 2930 keypoints in 35.2567 ms
+BRISK descriptor extraction in 25.1062 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=2893 matches in 67.0572 ms
+matches matches size(): 2893
+TTC Lidar : 15.889385 s, TTC Camera : 14.603976 s
+BRISK with n= 3022 keypoints in 35.6651 ms
+BRISK descriptor extraction in 25.8858 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=2930 matches in 70.0431 ms
+matches matches size(): 2930
+TTC Lidar : 13.729655 s, TTC Camera : 14.243906 s
+BRISK with n= 3013 keypoints in 35.5465 ms
+BRISK descriptor extraction in 25.6537 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=3022 matches in 72.9281 ms
+matches matches size(): 3022
+TTC Lidar : 10.491403 s, TTC Camera : 13.317260 s
+BRISK with n= 2949 keypoints in 35.2546 ms
+BRISK descriptor extraction in 24.9725 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=3013 matches in 68.9337 ms
+matches matches size(): 3013
+TTC Lidar : 10.099996 s, TTC Camera : 12.022538 s
+BRISK with n= 3012 keypoints in 35.7165 ms
+BRISK descriptor extraction in 25.406 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=2949 matches in 68.9651 ms
+matches matches size(): 2949
+TTC Lidar : 9.223069 s, TTC Camera : 12.875223 s
+BRISK with n= 3026 keypoints in 35.8179 ms
+BRISK descriptor extraction in 26.0463 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=3012 matches in 72.2028 ms
+matches matches size(): 3012
+TTC Lidar : 10.967763 s, TTC Camera : 11.768754 s
+BRISK with n= 3074 keypoints in 36.1429 ms
+BRISK descriptor extraction in 26.3279 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=3026 matches in 73.5201 ms
+matches matches size(): 3026
+TTC Lidar : 8.094218 s, TTC Camera : 12.509806 s
+BRISK with n= 3131 keypoints in 37.0145 ms
+BRISK descriptor extraction in 26.3393 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=3074 matches in 74.4141 ms
+matches matches size(): 3074
+TTC Lidar : 8.813924 s, TTC Camera : 10.539892 s
+BRISK with n= 3135 keypoints in 37.6402 ms
+BRISK descriptor extraction in 26.798 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=3131 matches in 77.2214 ms
+matches matches size(): 3131
+TTC Lidar : 10.292551 s, TTC Camera : 9.554902 s
+BRISK with n= 3146 keypoints in 37.1879 ms
+BRISK descriptor extraction in 26.7894 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=3135 matches in 76.0948 ms
+matches matches size(): 3135
+TTC Lidar : 8.309779 s, TTC Camera : 10.872755 s
+
+
+######################### ORB, ORB #########################
+
+ORB with n= 500 keypoints in 38.1587 ms
+ORB descriptor extraction in 6.92107 ms
+ORB with n= 500 keypoints in 7.70769 ms
+ORB descriptor extraction in 5.45296 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 2.07417 ms
+matches matches size(): 500
+TTC Lidar : 12.972159 s, TTC Camera : 24.780941 s
+ORB with n= 500 keypoints in 10.3606 ms
+ORB descriptor extraction in 6.26555 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 3.34438 ms
+matches matches size(): 500
+TTC Lidar : 12.264038 s, TTC Camera : 10.666765 s
+ORB with n= 500 keypoints in 6.79088 ms
+ORB descriptor extraction in 6.08777 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 1.92058 ms
+matches matches size(): 500
+TTC Lidar : 16.963042 s, TTC Camera : 13.221087 s
+ORB with n= 500 keypoints in 8.64426 ms
+ORB descriptor extraction in 7.15041 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 3.50463 ms
+matches matches size(): 500
+TTC Lidar : 13.125420 s, TTC Camera : 19.029083 s
+ORB with n= 500 keypoints in 7.30538 ms
+ORB descriptor extraction in 6.03037 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 2.6764 ms
+matches matches size(): 500
+TTC Lidar : 7.205664 s, TTC Camera : 25.300517 s
+ORB with n= 500 keypoints in 6.64972 ms
+ORB descriptor extraction in 6.37326 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 2.39759 ms
+matches matches size(): 500
+TTC Lidar : 12.421338 s, TTC Camera : 10.797863 s
+ORB with n= 500 keypoints in 8.09975 ms
+ORB descriptor extraction in 6.11522 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 1.985 ms
+matches matches size(): 500
+TTC Lidar : 34.340420 s, TTC Camera : 19.901563 s
+ORB with n= 500 keypoints in 7.38925 ms
+ORB descriptor extraction in 4.67491 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 1.95185 ms
+matches matches size(): 500
+TTC Lidar : 18.787518 s, TTC Camera : 10.868818 s
+ORB with n= 500 keypoints in 8.71573 ms
+ORB descriptor extraction in 5.7004 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 3.02514 ms
+matches matches size(): 500
+TTC Lidar : 15.889385 s, TTC Camera : 18.650995 s
+ORB with n= 500 keypoints in 8.19449 ms
+ORB descriptor extraction in 4.87169 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 1.94929 ms
+matches matches size(): 500
+TTC Lidar : 13.729655 s, TTC Camera : 13.145098 s
+ORB with n= 500 keypoints in 9.39863 ms
+ORB descriptor extraction in 5.39875 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 1.97202 ms
+matches matches size(): 500
+TTC Lidar : 10.491403 s, TTC Camera : 8.320162 s
+ORB with n= 500 keypoints in 7.08232 ms
+ORB descriptor extraction in 5.74241 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 2.04935 ms
+matches matches size(): 500
+TTC Lidar : 10.099996 s, TTC Camera : -inf s
+ORB with n= 500 keypoints in 7.0577 ms
+ORB descriptor extraction in 5.83916 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 2.0127 ms
+matches matches size(): 500
+TTC Lidar : 9.223069 s, TTC Camera : 9.264059 s
+ORB with n= 500 keypoints in 7.05656 ms
+ORB descriptor extraction in 5.69769 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 1.99819 ms
+matches matches size(): 500
+TTC Lidar : 10.967763 s, TTC Camera : 11.472473 s
+ORB with n= 500 keypoints in 7.83079 ms
+ORB descriptor extraction in 6.791 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 2.72677 ms
+matches matches size(): 500
+TTC Lidar : 8.094218 s, TTC Camera : 17.394665 s
+ORB with n= 500 keypoints in 6.98172 ms
+ORB descriptor extraction in 6.81868 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 1.96874 ms
+matches matches size(): 500
+TTC Lidar : 8.813924 s, TTC Camera : 9.541363 s
+ORB with n= 500 keypoints in 7.61262 ms
+ORB descriptor extraction in 6.39713 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 2.39135 ms
+matches matches size(): 500
+TTC Lidar : 10.292551 s, TTC Camera : 39.556957 s
+ORB with n= 500 keypoints in 8.88225 ms
+ORB descriptor extraction in 6.89893 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=500 matches in 2.39355 ms
+matches matches size(): 500
+TTC Lidar : 8.309779 s, TTC Camera : 20.070739 s
+
+
+######################### AKAZE, AKAZE #########################
+
+AKAZE with n= 1513 keypoints in 116.351 ms
+AKAZE descriptor extraction in 58.6043 ms
+AKAZE with n= 1541 keypoints in 57.8091 ms
+AKAZE descriptor extraction in 61.2043 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1513 matches in 24.9527 ms
+matches matches size(): 1513
+TTC Lidar : 12.972159 s, TTC Camera : 12.583503 s
+AKAZE with n= 1529 keypoints in 63.2279 ms
+AKAZE descriptor extraction in 61.5543 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1541 matches in 24.4955 ms
+matches matches size(): 1541
+TTC Lidar : 12.264038 s, TTC Camera : 14.643154 s
+AKAZE with n= 1561 keypoints in 103.321 ms
+AKAZE descriptor extraction in 94.5768 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1529 matches in 28.8446 ms
+matches matches size(): 1529
+TTC Lidar : 16.963042 s, TTC Camera : 12.949069 s
+AKAZE with n= 1545 keypoints in 63.5233 ms
+AKAZE descriptor extraction in 60.1557 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1561 matches in 31.837 ms
+matches matches size(): 1561
+TTC Lidar : 13.125420 s, TTC Camera : 14.581550 s
+AKAZE with n= 1526 keypoints in 61.2689 ms
+AKAZE descriptor extraction in 59.2797 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1545 matches in 25.6772 ms
+matches matches size(): 1545
+TTC Lidar : 7.205664 s, TTC Camera : 16.425448 s
+AKAZE with n= 1566 keypoints in 64.3596 ms
+AKAZE descriptor extraction in 58.4227 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1526 matches in 24.1621 ms
+matches matches size(): 1526
+TTC Lidar : 12.421338 s, TTC Camera : 13.250934 s
+AKAZE with n= 1529 keypoints in 66.5862 ms
+AKAZE descriptor extraction in 58.1106 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1566 matches in 26.0909 ms
+matches matches size(): 1566
+TTC Lidar : 34.340420 s, TTC Camera : 15.211896 s
+AKAZE with n= 1547 keypoints in 63.7517 ms
+AKAZE descriptor extraction in 61.3669 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1529 matches in 25.429 ms
+matches matches size(): 1529
+TTC Lidar : 18.787518 s, TTC Camera : 14.556348 s
+AKAZE with n= 1572 keypoints in 66.887 ms
+AKAZE descriptor extraction in 60.3431 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1547 matches in 26.6669 ms
+matches matches size(): 1547
+TTC Lidar : 15.889385 s, TTC Camera : 14.152315 s
+AKAZE with n= 1567 keypoints in 69.1537 ms
+AKAZE descriptor extraction in 61.9677 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1572 matches in 24.8532 ms
+matches matches size(): 1572
+TTC Lidar : 13.729655 s, TTC Camera : 11.505609 s
+AKAZE with n= 1538 keypoints in 58.431 ms
+AKAZE descriptor extraction in 64.4299 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1567 matches in 25.9552 ms
+matches matches size(): 1567
+TTC Lidar : 10.491403 s, TTC Camera : 12.186861 s
+AKAZE with n= 1513 keypoints in 64.9287 ms
+AKAZE descriptor extraction in 63.4857 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1538 matches in 25.9202 ms
+matches matches size(): 1538
+TTC Lidar : 10.099996 s, TTC Camera : 11.740188 s
+AKAZE with n= 1538 keypoints in 66.4373 ms
+AKAZE descriptor extraction in 61.7405 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1513 matches in 27.0183 ms
+matches matches size(): 1513
+TTC Lidar : 9.223069 s, TTC Camera : 10.330484 s
+AKAZE with n= 1555 keypoints in 73.3101 ms
+AKAZE descriptor extraction in 67.6925 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1538 matches in 29.0684 ms
+matches matches size(): 1538
+TTC Lidar : 10.967763 s, TTC Camera : 10.433917 s
+AKAZE with n= 1544 keypoints in 65.3231 ms
+AKAZE descriptor extraction in 61.2571 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1555 matches in 26.2451 ms
+matches matches size(): 1555
+TTC Lidar : 8.094218 s, TTC Camera : 10.486237 s
+AKAZE with n= 1563 keypoints in 66.3477 ms
+AKAZE descriptor extraction in 64.1153 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1544 matches in 26.4843 ms
+matches matches size(): 1544
+TTC Lidar : 8.813924 s, TTC Camera : 10.197527 s
+AKAZE with n= 1561 keypoints in 57.8752 ms
+AKAZE descriptor extraction in 70.5165 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1563 matches in 27.1342 ms
+matches matches size(): 1563
+TTC Lidar : 10.292551 s, TTC Camera : 9.475073 s
+AKAZE with n= 1569 keypoints in 73.3775 ms
+AKAZE descriptor extraction in 65.6734 ms
+With matcher type MAT_BF and selector type SEL_NN match descriptors with n=1561 matches in 27.4077 ms
+matches matches size(): 1561
+TTC Lidar : 8.309779 s, TTC Camera : 8.942563 s
+
+
+######################### SIFT, SIFT #########################
+
+SIFT with n= 1891 keypoints in 91.385 ms
+SIFT descriptor extraction in 98.1511 ms
+SIFT with n= 1915 keypoints in 77.0417 ms
+SIFT descriptor extraction in 94.476 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=1048 matches in 37.5713 ms
+matches matches size(): 1048
+TTC Lidar : 12.972159 s, TTC Camera : 11.391677 s
+SIFT with n= 1825 keypoints in 77.7075 ms
+SIFT descriptor extraction in 82.2389 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=998 matches in 34.4059 ms
+matches matches size(): 998
+TTC Lidar : 12.264038 s, TTC Camera : 12.571115 s
+SIFT with n= 1837 keypoints in 72.1705 ms
+SIFT descriptor extraction in 82.3011 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=980 matches in 36.7972 ms
+matches matches size(): 980
+TTC Lidar : 16.963042 s, TTC Camera : 12.933613 s
+SIFT with n= 1828 keypoints in 72.6534 ms
+SIFT descriptor extraction in 84.4376 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=976 matches in 35.7423 ms
+matches matches size(): 976
+TTC Lidar : 13.125420 s, TTC Camera : 18.818332 s
+SIFT with n= 1877 keypoints in 71.2061 ms
+SIFT descriptor extraction in 87.4998 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=1001 matches in 39.895 ms
+matches matches size(): 1001
+TTC Lidar : 7.205664 s, TTC Camera : 12.478066 s
+SIFT with n= 1931 keypoints in 68.9707 ms
+SIFT descriptor extraction in 81.9764 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=972 matches in 34.0681 ms
+matches matches size(): 972
+TTC Lidar : 12.421338 s, TTC Camera : 11.753134 s
+SIFT with n= 1963 keypoints in 68.6515 ms
+SIFT descriptor extraction in 81.1738 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=1020 matches in 35.8794 ms
+matches matches size(): 1020
+TTC Lidar : 34.340420 s, TTC Camera : 13.542784 s
+SIFT with n= 1954 keypoints in 71.8219 ms
+SIFT descriptor extraction in 79.9603 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=1036 matches in 35.9536 ms
+matches matches size(): 1036
+TTC Lidar : 18.787518 s, TTC Camera : 14.694781 s
+SIFT with n= 1983 keypoints in 71.0601 ms
+SIFT descriptor extraction in 80.1537 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=1037 matches in 34.6007 ms
+matches matches size(): 1037
+TTC Lidar : 15.889385 s, TTC Camera : 13.398610 s
+SIFT with n= 2041 keypoints in 69.4546 ms
+SIFT descriptor extraction in 81.1653 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=1011 matches in 37.0711 ms
+matches matches size(): 1011
+TTC Lidar : 13.729655 s, TTC Camera : 10.528945 s
+SIFT with n= 2063 keypoints in 70.3132 ms
+SIFT descriptor extraction in 98.0345 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=1092 matches in 41.6134 ms
+matches matches size(): 1092
+TTC Lidar : 10.491403 s, TTC Camera : 11.215245 s
+SIFT with n= 2007 keypoints in 71.7258 ms
+SIFT descriptor extraction in 80.8158 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=1076 matches in 35.7769 ms
+matches matches size(): 1076
+TTC Lidar : 10.099996 s, TTC Camera : 10.896310 s
+SIFT with n= 2032 keypoints in 71.2054 ms
+SIFT descriptor extraction in 80.905 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=1122 matches in 35.3783 ms
+matches matches size(): 1122
+TTC Lidar : 9.223069 s, TTC Camera : 9.459759 s
+SIFT with n= 2048 keypoints in 71.1019 ms
+SIFT descriptor extraction in 83.0452 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=1139 matches in 37.6741 ms
+matches matches size(): 1139
+TTC Lidar : 10.967763 s, TTC Camera : 10.584151 s
+SIFT with n= 2044 keypoints in 73.131 ms
+SIFT descriptor extraction in 81.217 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=1124 matches in 38.2433 ms
+matches matches size(): 1124
+TTC Lidar : 8.094218 s, TTC Camera : 9.774648 s
+SIFT with n= 2086 keypoints in 72.0573 ms
+SIFT descriptor extraction in 81.7483 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=1175 matches in 36.3189 ms
+matches matches size(): 1175
+TTC Lidar : 8.813924 s, TTC Camera : 9.110449 s
+SIFT with n= 2095 keypoints in 89.098 ms
+SIFT descriptor extraction in 109.392 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=1185 matches in 50.1356 ms
+matches matches size(): 1185
+TTC Lidar : 10.292551 s, TTC Camera : 8.788376 s
+SIFT with n= 2159 keypoints in 106.222 ms
+SIFT descriptor extraction in 117.63 ms
+With matcher type MAT_FLANN and selector type SEL_KNN match descriptors with n=1166 matches in 73.2339 ms
+matches matches size(): 1166
+TTC Lidar : 8.309779 s, TTC Camera : 8.916735 s
+
+
+######################### Harris, BRISK #########################
+
+Harris detection with n=115 keypoints in 14.6231 ms
+BRISK descriptor extraction in 2.13409 ms
+Harris detection with n=209 keypoints in 14.6148 ms
+BRISK descriptor extraction in 3.08908 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=74 matches in 19.7004 ms
+matches matches size(): 74
+TTC Lidar : 12.972159 s, TTC Camera : 10.908219 s
+Harris detection with n=114 keypoints in 12.3107 ms
+BRISK descriptor extraction in 1.74811 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=91 matches in 0.348928 ms
+matches matches size(): 91
+TTC Lidar : 12.264038 s, TTC Camera : 10.585996 s
+Harris detection with n=178 keypoints in 15.409 ms
+BRISK descriptor extraction in 2.29248 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=76 matches in 0.260892 ms
+matches matches size(): 76
+TTC Lidar : 16.963042 s, TTC Camera : -80.852533 s
+Harris detection with n=250 keypoints in 14.6896 ms
+BRISK descriptor extraction in 4.80432 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=109 matches in 0.56802 ms
+matches matches size(): 109
+TTC Lidar : 13.125420 s, TTC Camera : 11.579216 s
+Harris detection with n=241 keypoints in 16.4342 ms
+BRISK descriptor extraction in 2.86857 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=134 matches in 0.7255 ms
+matches matches size(): 134
+TTC Lidar : 7.205664 s, TTC Camera : -inf s
+Harris detection with n=259 keypoints in 22.0968 ms
+BRISK descriptor extraction in 4.2159 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=124 matches in 1.42896 ms
+matches matches size(): 124
+TTC Lidar : 12.421338 s, TTC Camera : 12.994489 s
+Harris detection with n=272 keypoints in 19.3392 ms
+BRISK descriptor extraction in 3.39736 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=144 matches in 0.788296 ms
+matches matches size(): 144
+TTC Lidar : 34.340420 s, TTC Camera : 11.694714 s
+Harris detection with n=193 keypoints in 18.341 ms
+BRISK descriptor extraction in 3.97537 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=124 matches in 0.6052 ms
+matches matches size(): 124
+TTC Lidar : 18.787518 s, TTC Camera : 17.620382 s
+Harris detection with n=129 keypoints in 18.0248 ms
+BRISK descriptor extraction in 4.58837 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=93 matches in 1.25341 ms
+matches matches size(): 93
+TTC Lidar : 15.889385 s, TTC Camera : nan s
+Harris detection with n=248 keypoints in 18.3598 ms
+BRISK descriptor extraction in 3.01164 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=77 matches in 0.354 ms
+matches matches size(): 77
+TTC Lidar : 13.729655 s, TTC Camera : -inf s
+Harris detection with n=147 keypoints in 16.2323 ms
+BRISK descriptor extraction in 2.08957 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=101 matches in 0.409189 ms
+matches matches size(): 101
+TTC Lidar : 10.491403 s, TTC Camera : -inf s
+Harris detection with n=168 keypoints in 15.3337 ms
+BRISK descriptor extraction in 2.8539 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=87 matches in 0.36672 ms
+matches matches size(): 87
+TTC Lidar : 10.099996 s, TTC Camera : 12.244994 s
+Harris detection with n=181 keypoints in 15.7908 ms
+BRISK descriptor extraction in 2.47444 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=101 matches in 0.417164 ms
+matches matches size(): 101
+TTC Lidar : 9.223069 s, TTC Camera : 568.322205 s
+Harris detection with n=144 keypoints in 15.8686 ms
+BRISK descriptor extraction in 2.12865 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=99 matches in 0.343439 ms
+matches matches size(): 99
+TTC Lidar : 10.967763 s, TTC Camera : 7.721444 s
+Harris detection with n=243 keypoints in 16.5415 ms
+BRISK descriptor extraction in 2.76606 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=89 matches in 0.372023 ms
+matches matches size(): 89
+TTC Lidar : 8.094218 s, TTC Camera : -13.626283 s
+Harris detection with n=213 keypoints in 14.9759 ms
+BRISK descriptor extraction in 3.05813 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=126 matches in 0.580089 ms
+matches matches size(): 126
+TTC Lidar : 8.813924 s, TTC Camera : 6.657258 s
+Harris detection with n=126 keypoints in 14.1117 ms
+BRISK descriptor extraction in 1.96342 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=89 matches in 0.384959 ms
+matches matches size(): 89
+TTC Lidar : 10.292551 s, TTC Camera : 12.584845 s
+Harris detection with n=158 keypoints in 14.0715 ms
+BRISK descriptor extraction in 2.16349 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=73 matches in 0.276424 ms
+matches matches size(): 73
+TTC Lidar : 8.309779 s, TTC Camera : -inf s
+
+
+######################### Harris, BRIEF #########################
+
+Harris detection with n=115 keypoints in 10.0074 ms
+BRIEF descriptor extraction in 1.41915 ms
+Harris detection with n=209 keypoints in 14.4249 ms
+BRIEF descriptor extraction in 2.12679 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=95 matches in 0.435044 ms
+matches matches size(): 95
+TTC Lidar : 12.972159 s, TTC Camera : 10.908219 s
+Harris detection with n=114 keypoints in 12.1521 ms
+BRIEF descriptor extraction in 2.77205 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=120 matches in 0.60226 ms
+matches matches size(): 120
+TTC Lidar : 12.264038 s, TTC Camera : nan s
+Harris detection with n=178 keypoints in 12.8404 ms
+BRIEF descriptor extraction in 1.04133 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=95 matches in 0.246134 ms
+matches matches size(): 95
+TTC Lidar : 16.963042 s, TTC Camera : -11.473146 s
+Harris detection with n=250 keypoints in 16.741 ms
+BRIEF descriptor extraction in 2.6013 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=146 matches in 0.480511 ms
+matches matches size(): 146
+TTC Lidar : 13.125420 s, TTC Camera : 11.579216 s
+Harris detection with n=241 keypoints in 19.8999 ms
+BRIEF descriptor extraction in 2.16583 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=180 matches in 0.719538 ms
+matches matches size(): 180
+TTC Lidar : 7.205664 s, TTC Camera : 19.496698 s
+Harris detection with n=259 keypoints in 16.1754 ms
+BRIEF descriptor extraction in 2.98439 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=174 matches in 0.950395 ms
+matches matches size(): 174
+TTC Lidar : 12.421338 s, TTC Camera : 13.621705 s
+Harris detection with n=272 keypoints in 15.4231 ms
+BRIEF descriptor extraction in 2.60362 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=193 matches in 0.800964 ms
+matches matches size(): 193
+TTC Lidar : 34.340420 s, TTC Camera : 14.274402 s
+Harris detection with n=193 keypoints in 15.4326 ms
+BRIEF descriptor extraction in 2.43931 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=174 matches in 0.663617 ms
+matches matches size(): 174
+TTC Lidar : 18.787518 s, TTC Camera : 17.620382 s
+Harris detection with n=129 keypoints in 13.9092 ms
+BRIEF descriptor extraction in 2.83755 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=122 matches in 1.11716 ms
+matches matches size(): 122
+TTC Lidar : 15.889385 s, TTC Camera : nan s
+Harris detection with n=248 keypoints in 14.5124 ms
+BRIEF descriptor extraction in 1.57177 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=109 matches in 0.447169 ms
+matches matches size(): 109
+TTC Lidar : 13.729655 s, TTC Camera : 20.586216 s
+Harris detection with n=147 keypoints in 12.5596 ms
+BRIEF descriptor extraction in 2.47099 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=142 matches in 0.581563 ms
+matches matches size(): 142
+TTC Lidar : 10.491403 s, TTC Camera : 11.741430 s
+Harris detection with n=168 keypoints in 13.528 ms
+BRIEF descriptor extraction in 1.3517 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=116 matches in 0.319337 ms
+matches matches size(): 116
+TTC Lidar : 10.099996 s, TTC Camera : 12.244994 s
+Harris detection with n=181 keypoints in 10.4506 ms
+BRIEF descriptor extraction in 1.28009 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=131 matches in 0.3927 ms
+matches matches size(): 131
+TTC Lidar : 9.223069 s, TTC Camera : 13.432725 s
+Harris detection with n=144 keypoints in 9.95119 ms
+BRIEF descriptor extraction in 1.55153 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=130 matches in 0.360529 ms
+matches matches size(): 130
+TTC Lidar : 10.967763 s, TTC Camera : 5.606097 s
+Harris detection with n=243 keypoints in 11.6853 ms
+BRIEF descriptor extraction in 1.37991 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=121 matches in 0.420551 ms
+matches matches size(): 121
+TTC Lidar : 8.094218 s, TTC Camera : -13.626283 s
+Harris detection with n=213 keypoints in 11.3296 ms
+BRIEF descriptor extraction in 1.28031 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=174 matches in 0.573136 ms
+matches matches size(): 174
+TTC Lidar : 8.813924 s, TTC Camera : 6.717055 s
+Harris detection with n=126 keypoints in 12.2841 ms
+BRIEF descriptor extraction in 1.4642 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=132 matches in 0.376805 ms
+matches matches size(): 132
+TTC Lidar : 10.292551 s, TTC Camera : 12.584845 s
+Harris detection with n=158 keypoints in 12.7504 ms
+BRIEF descriptor extraction in 1.46286 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=100 matches in 0.288295 ms
+matches matches size(): 100
+TTC Lidar : 8.309779 s, TTC Camera : -inf s
+
+
+######################### Harris, ORB #########################
+
+Harris detection with n=115 keypoints in 11.9428 ms
+ORB descriptor extraction in 53.8906 ms
+Harris detection with n=209 keypoints in 12.2357 ms
+ORB descriptor extraction in 1.47165 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=93 matches in 0.373686 ms
+matches matches size(): 93
+TTC Lidar : 12.972159 s, TTC Camera : 10.908219 s
+Harris detection with n=114 keypoints in 12.1068 ms
+ORB descriptor extraction in 1.79856 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=106 matches in 0.499084 ms
+matches matches size(): 106
+TTC Lidar : 12.264038 s, TTC Camera : nan s
+Harris detection with n=178 keypoints in 13.0894 ms
+ORB descriptor extraction in 2.03195 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=93 matches in 0.261076 ms
+matches matches size(): 93
+TTC Lidar : 16.963042 s, TTC Camera : -11.473146 s
+Harris detection with n=250 keypoints in 12.0084 ms
+ORB descriptor extraction in 1.76483 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=133 matches in 0.694057 ms
+matches matches size(): 133
+TTC Lidar : 13.125420 s, TTC Camera : 11.579216 s
+Harris detection with n=241 keypoints in 15.1694 ms
+ORB descriptor extraction in 1.88716 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=173 matches in 0.662167 ms
+matches matches size(): 173
+TTC Lidar : 7.205664 s, TTC Camera : 35.383263 s
+Harris detection with n=259 keypoints in 14.2535 ms
+ORB descriptor extraction in 1.8155 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=159 matches in 0.722949 ms
+matches matches size(): 159
+TTC Lidar : 12.421338 s, TTC Camera : 13.590710 s
+Harris detection with n=272 keypoints in 15.9707 ms
+ORB descriptor extraction in 1.66122 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=180 matches in 0.761419 ms
+matches matches size(): 180
+TTC Lidar : 34.340420 s, TTC Camera : 13.496977 s
+Harris detection with n=193 keypoints in 11.2262 ms
+ORB descriptor extraction in 1.58175 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=160 matches in 0.562981 ms
+matches matches size(): 160
+TTC Lidar : 18.787518 s, TTC Camera : 17.620382 s
+Harris detection with n=129 keypoints in 12.9312 ms
+ORB descriptor extraction in 1.74876 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=105 matches in 0.740159 ms
+matches matches size(): 105
+TTC Lidar : 15.889385 s, TTC Camera : nan s
+Harris detection with n=248 keypoints in 14.7091 ms
+ORB descriptor extraction in 2.34188 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=97 matches in 0.461242 ms
+matches matches size(): 97
+TTC Lidar : 13.729655 s, TTC Camera : -inf s
+Harris detection with n=147 keypoints in 12.606 ms
+ORB descriptor extraction in 1.90154 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=131 matches in 0.446259 ms
+matches matches size(): 131
+TTC Lidar : 10.491403 s, TTC Camera : 11.741430 s
+Harris detection with n=168 keypoints in 11.4977 ms
+ORB descriptor extraction in 1.40244 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=108 matches in 0.308 ms
+matches matches size(): 108
+TTC Lidar : 10.099996 s, TTC Camera : 12.244994 s
+Harris detection with n=181 keypoints in 11.4871 ms
+ORB descriptor extraction in 1.77648 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=126 matches in 0.53586 ms
+matches matches size(): 126
+TTC Lidar : 9.223069 s, TTC Camera : 568.322205 s
+Harris detection with n=144 keypoints in 12.5271 ms
+ORB descriptor extraction in 1.81937 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=119 matches in 0.766342 ms
+matches matches size(): 119
+TTC Lidar : 10.967763 s, TTC Camera : 5.660966 s
+Harris detection with n=243 keypoints in 18.9096 ms
+ORB descriptor extraction in 1.35272 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=111 matches in 0.411537 ms
+matches matches size(): 111
+TTC Lidar : 8.094218 s, TTC Camera : -13.626283 s
+Harris detection with n=213 keypoints in 11.4522 ms
+ORB descriptor extraction in 1.69817 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=155 matches in 0.572776 ms
+matches matches size(): 155
+TTC Lidar : 8.813924 s, TTC Camera : 7.037751 s
+Harris detection with n=126 keypoints in 11.0505 ms
+ORB descriptor extraction in 1.4369 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=115 matches in 0.331695 ms
+matches matches size(): 115
+TTC Lidar : 10.292551 s, TTC Camera : 12.584845 s
+Harris detection with n=158 keypoints in 13.8397 ms
+ORB descriptor extraction in 1.58192 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=95 matches in 0.306617 ms
+matches matches size(): 95
+TTC Lidar : 8.309779 s, TTC Camera : -inf s
+
+
+
+
+######################### Harris, FREAK #########################
+
+Harris detection with n=115 keypoints in 12.192 ms
+FREAK descriptor extraction in 36.4522 ms
+Harris detection with n=209 keypoints in 15.7376 ms
+FREAK descriptor extraction in 37.4131 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=78 matches in 0.395932 ms
+matches matches size(): 78
+TTC Lidar : 12.972159 s, TTC Camera : 9.749526 s
+Harris detection with n=114 keypoints in 10.9401 ms
+FREAK descriptor extraction in 38.2956 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=96 matches in 0.3318 ms
+matches matches size(): 96
+TTC Lidar : 12.264038 s, TTC Camera : nan s
+Harris detection with n=178 keypoints in 13.4426 ms
+FREAK descriptor extraction in 41.9993 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=79 matches in 0.292935 ms
+matches matches size(): 79
+TTC Lidar : 16.963042 s, TTC Camera : -10.295030 s
+Harris detection with n=250 keypoints in 15.6399 ms
+FREAK descriptor extraction in 38.1837 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=103 matches in 0.510958 ms
+matches matches size(): 103
+TTC Lidar : 13.125420 s, TTC Camera : 12.128391 s
+Harris detection with n=241 keypoints in 13.1403 ms
+FREAK descriptor extraction in 38.4173 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=138 matches in 0.582708 ms
+matches matches size(): 138
+TTC Lidar : 7.205664 s, TTC Camera : 39.584029 s
+Harris detection with n=259 keypoints in 14.075 ms
+FREAK descriptor extraction in 41.0585 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=124 matches in 0.641841 ms
+matches matches size(): 124
+TTC Lidar : 12.421338 s, TTC Camera : 13.590710 s
+Harris detection with n=272 keypoints in 14.1351 ms
+FREAK descriptor extraction in 39.1841 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=128 matches in 0.664678 ms
+matches matches size(): 128
+TTC Lidar : 34.340420 s, TTC Camera : 12.337898 s
+Harris detection with n=193 keypoints in 12.9163 ms
+FREAK descriptor extraction in 37.638 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=131 matches in 0.828453 ms
+matches matches size(): 131
+TTC Lidar : 18.787518 s, TTC Camera : 12.916210 s
+Harris detection with n=129 keypoints in 10.6196 ms
+FREAK descriptor extraction in 39.7343 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=88 matches in 0.35536 ms
+matches matches size(): 88
+TTC Lidar : 15.889385 s, TTC Camera : nan s
+Harris detection with n=248 keypoints in 15.7928 ms
+FREAK descriptor extraction in 37.8454 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=74 matches in 0.476085 ms
+matches matches size(): 74
+TTC Lidar : 13.729655 s, TTC Camera : 10.293108 s
+Harris detection with n=147 keypoints in 15.183 ms
+FREAK descriptor extraction in 36.9154 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=102 matches in 0.410426 ms
+matches matches size(): 102
+TTC Lidar : 10.491403 s, TTC Camera : -inf s
+Harris detection with n=168 keypoints in 11.6675 ms
+FREAK descriptor extraction in 38.5249 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=88 matches in 0.38699 ms
+matches matches size(): 88
+TTC Lidar : 10.099996 s, TTC Camera : 12.244994 s
+Harris detection with n=181 keypoints in 11.7046 ms
+FREAK descriptor extraction in 37.4989 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=103 matches in 0.595062 ms
+matches matches size(): 103
+TTC Lidar : 9.223069 s, TTC Camera : 13.432725 s
+Harris detection with n=144 keypoints in 12.4626 ms
+FREAK descriptor extraction in 38.0977 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=102 matches in 0.433631 ms
+matches matches size(): 102
+TTC Lidar : 10.967763 s, TTC Camera : 12.287985 s
+Harris detection with n=243 keypoints in 12.9393 ms
+FREAK descriptor extraction in 38.5315 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=87 matches in 0.371128 ms
+matches matches size(): 87
+TTC Lidar : 8.094218 s, TTC Camera : -inf s
+Harris detection with n=213 keypoints in 13.2494 ms
+FREAK descriptor extraction in 37.747 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=128 matches in 0.560001 ms
+matches matches size(): 128
+TTC Lidar : 8.813924 s, TTC Camera : 6.717055 s
+Harris detection with n=126 keypoints in 14.7111 ms
+FREAK descriptor extraction in 37.9034 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=92 matches in 0.474685 ms
+matches matches size(): 92
+TTC Lidar : 10.292551 s, TTC Camera : nan s
+Harris detection with n=158 keypoints in 11.83 ms
+FREAK descriptor extraction in 38.1702 ms
+With matcher type MAT_BF and selector type SEL_KNN match descriptors with n=75 matches in 0.468459 ms
+matches matches size(): 75
+TTC Lidar : 8.309779 s, TTC Camera : nan s
