@@ -150,6 +150,7 @@ void clusterKptMatchesWithROI(BoundingBox &boundingBox,
         }
     } // eof loop over all matches
 
+    // remove outliers if the distance between corresponding keypoints in successive frames is too large
     double meanEuclideanDistances = accumulateDistances / boundingBox.kptMatches.size();
     for (auto it = boundingBox.kptMatches.begin(); it != boundingBox.kptMatches.end(); ++it)
     {
@@ -208,7 +209,6 @@ void computeTTCCamera(std::vector<cv::KeyPoint> &kptsPrev, std::vector<cv::KeyPo
 
     // compute camera-based TTC from distance ratios
     // double meanDistRatio = std::accumulate(distRatios.begin(), distRatios.end(), 0.0) / distRatios.size();
-    // STUDENT TASK (replacement for meanDistRatio)
     std::sort(distRatios.begin(), distRatios.end());
     long medIndex = floor(distRatios.size() / 2.0);
     // compute median dist. ratio to remove outlier influence
