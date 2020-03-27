@@ -40,7 +40,8 @@ In this final project, you will implement the missing parts in the schematic. To
 
 ## FP.2 Compute Lidar-based TTC
 
-|1. With the given lidar points of matched bounding boxes | loop for corresponding to| |find the nearest point of previous and current box. | 2. Using function `isNotOurlier` to| check whether the point is a outlier, my solution  is counting all the number of points that the euclidean distance is less than the given radius `radiusSearch`, if the count is less than a threshold `minNeighborsInRadius`, then the point is handle with a outlier.
+1. With the given lidar points of matched bounding boxes | loop for corresponding to| |find the nearest point of previous and current box. |
+2. Using function `isNotOurlier` to| check whether the point is a outlier, my solution  is counting all the number of points that the euclidean distance is less than the given radius `radiusSearch`, if the count is less than a threshold `minNeighborsInRadius`, then the point is handle with a outlier.
 3. Then just use the formula `minXCurr * (1/frameRate) / (minXPrev - minXCurr)` to calculate the TTC.
 
 ## FP.3 Associate Keypoint Correspondences with Bounding Boxes
@@ -51,9 +52,9 @@ In this final project, you will implement the missing parts in the schematic. To
 
 ## FP.4 Compute Camera-based TTC
 
-1. First take a loop of handled `boundingBox.kptMatches` in the previous step, and another same embedding loop, to get a distance ratio of current and previous distance of |two points | if current distance larger than threshold `minDist`, push it to a vector.|
-2. To deal with outlier correspondences | sort the vector and find out the median value ||  of the ratios.
-3. Finally get TTC by the formula `-dT / (1 - medDistRatio)`.|
+1. First take a loop of handled `boundingBox.kptMatches` in the previous step, and another same embedding loop, to get a distance ratio of current and previous distance of |two points | if current distance larger than threshold `minDist`, push it to a vector.
+2. To deal with outlier correspondences sort the vector and find out the median value of the ratios.
+3. Finally get TTC by the formula `-dT / (1 - medDistRatio)`.
 
 ## FP.5 Performance Evaluation 1
 
