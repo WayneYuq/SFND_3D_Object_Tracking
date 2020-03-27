@@ -52,7 +52,8 @@ In this final project, you will implement the missing parts in the schematic. To
 ## FP.4 Compute Camera-based TTC
 
 1. First take a loop of handled `boundingBox.kptMatches` in the previous step, and another same embedding loop, to get a distance ratio of current and previous distance of |two points | if current distance larger than threshold `minDist`, push it to a vector.|
-|2. To deal with outlier correspondences | sort the vector and find out the median value ||  of the ratios. | 3. Finally get TTC by the formula `-dT / (1 - medDistRatio)`.|
+2. To deal with outlier correspondences | sort the vector and find out the median value ||  of the ratios.
+3. Finally get TTC by the formula `-dT / (1 - medDistRatio)`.|
 
 ## FP.5 Performance Evaluation 1
 
